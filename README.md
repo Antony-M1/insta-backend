@@ -4,5 +4,6 @@ FastAPI, fastapi, redis
 
 # Quick Start - Docker
 ```
-docker build -t insta-backend:latest .
+docker compose up -d
 ```
+For Force build add the `--build` argument in the above command
