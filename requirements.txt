@@ -3,6 +3,10 @@ uvicorn[standard]==0.34.0
 email-validator==2.2.0
 PyJWT==2.10.1
 passlib[bcrypt]==1.7.4
-sqlmodel==0.0.24
+sqlmodel[all]==0.0.24
 psycopg2==2.9.10
 asyncpg==0.30.0
+# alembic==1.15.1
+
+# Development
+Faker==37.0.0
